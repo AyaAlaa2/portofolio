@@ -5,6 +5,11 @@
   },
   "Navbar": {
     "home": "Home",
-    "about": "About"
+    "about": "About",
+    "services": "Services",
+    "hire us": "Hire Us",
+    "how we deliver": "How We Deliver",
+    "contact us": "Contact Us",
+    "call us now": "Call Us Now"
   }
 }

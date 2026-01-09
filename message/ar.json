@@ -5,6 +5,11 @@
   },
   "Navbar": {
     "home": "الرئيسية",
-    "about": "من نحن"
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "hire us": "استعن بنا",
+    "how we deliver": "طرق تسليم المشروع",
+    "contact us": "تواصل معنا",
+    "call us now": "اتصل بنا"
   }
 }

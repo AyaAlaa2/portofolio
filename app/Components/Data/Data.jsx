@@ -1,6 +1,7 @@
-import { FaPhoneAlt } from "react-icons/fa";
-import { IoMail } from "react-icons/io5";
-import { FaLocationDot } from "react-icons/fa6";
+
+import { Phone } from "lucide-react";
+import { Mail } from "lucide-react";
+import { LocateOffIcon } from "lucide-react";
 // Data for Footer Component
 export const DFooter = {
   OuickLink: [
@@ -24,15 +25,15 @@ export const DFooter = {
   OfficeLocation: [
     {
       title: "In front of Water Way, New Cairo 1, Cairo, Egypt",
-      icons: <FaLocationDot />,
+      icons: <LocateOffIcon />,
     },
     {
       title: "contact@developnetwork.net",
-      icons: <IoMail />,
+      icons: <Mail />,
     },
     {
       title: "+201002135592",
-      icons: <FaPhoneAlt />,
+      icons: <Phone />,
     },
   ],
 };
