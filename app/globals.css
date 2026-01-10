@@ -6,3 +6,12 @@
   max-height: 100vh;
   background-attachment: fixed;
 }
+.slide1 {
+  background: url("/Developer-Next/Home/Slider/slider-part-1.2c4ace88f2a1a33615b8.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+}
+.swiper {
+  height: 100vh;
+}

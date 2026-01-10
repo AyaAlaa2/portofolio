@@ -11,5 +11,20 @@
     "how we deliver": "How We Deliver",
     "contact us": "Contact Us",
     "call us now": "Call Us Now"
+  },
+  "Slider": {
+    "slide1": {
+      "title": "IDEA. DESIGN.DEVELOP. DEPLOY.SUPPORT",
+      "desc": "Let Us Think About Your Brand"
+    },
+    "slide2": {
+      "title": "mobile app development",
+      "desc": "In today’s world mobile is not only a way to communicate but also a way to explore your business around the world."
+    },
+    "slide3": {
+      "title": "tracking mobile app",
+      "desc": "Taxi App Dev | Fleet Management | Courier Track | Food Delivery"
+    },
+    "button": "Request a quote"
   }
 }
