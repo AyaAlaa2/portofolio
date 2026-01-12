@@ -11,6 +11,7 @@ import "./globals.css";
 import enMessages from "../message/en.json";
 import arMessages from "../message/ar.json";
 import Header from "./components/header/Header";
+import HeaderBanner from "./components/header/HeaderBanner";
 
 export default function RootLayout({
   children,
@@ -26,6 +27,7 @@ export default function RootLayout({
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body className="antialiased">
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <HeaderBanner />
           <Header switchLang={switchLang} />
           <main>{children}</main>
           <ContactFixed />

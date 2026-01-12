@@ -27,4 +27,9 @@
     },
     "button": "Request a quote"
   }
+  ,
+  "HeaderBanner": {
+    "message": "Unique custom products & services.",
+    "follow-us": "Follow Us"
+  }
 }

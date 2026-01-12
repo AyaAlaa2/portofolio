@@ -29,7 +29,7 @@ const HomeSlider = () => {
             <h1 className="text-white text-6xl w-100  my-10 font-extrabold uppercase ">
               {t("slide1.title")}
             </h1>
-            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-[#df8227] hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
               {t("button")}
             </button>
           </div>
@@ -42,7 +42,7 @@ const HomeSlider = () => {
                   {t("slide2.title")}
                 </h1>
                 <p className="text-black text-xl">{t("slide2.desc")}</p>
-                <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
+                <button className="bg-[#df8227] hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
                   {t("button")}
                 </button>
               </div>
@@ -64,7 +64,7 @@ const HomeSlider = () => {
                   {t("slide3.title")}
                 </h1>
                 <p className="text-black text-xl">{t("slide3.desc")}</p>
-                <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
+                <button className="bg-[#df8227] hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
                   {t("button")}
                 </button>
               </div>
