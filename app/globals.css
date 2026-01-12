@@ -48,3 +48,18 @@
 .animate-image {
   animation: animate-image 4s linear infinite;
 }
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 10px !important;
+  text-align: center;
+  margin: 0;
+  background: rgba(254, 255, 255, 0.5);
+  border-radius: 100px;
+  width: 64px !important;
+  height: 64px !important;
+  line-height: 64px;
+  font-weight: 900 !important;
+}
+.swiper-navigation-icon path{
+  font-size: 10px !important  ;
+}

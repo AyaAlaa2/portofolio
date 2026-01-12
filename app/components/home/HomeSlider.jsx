@@ -10,12 +10,12 @@ import Image from "next/image";
 
 const HomeSlider = () => {
   const t = useTranslations("Slider");
-  const locale = useLocale()
+  const locale = useLocale();
   return (
     <>
       <Swiper
-      key={locale}
-      dir={locale === "ar" ? "rtl" : "ltr"}
+        key={locale}
+        dir={locale === "ar" ? "rtl" : "ltr"}
         modules={[Navigation, Pagination]}
         slidesPerView={1}
         navigation
@@ -26,7 +26,7 @@ const HomeSlider = () => {
         <SwiperSlide className="  slide1 flex flex-col items-center justify-center">
           <div className="my-50 mx-20">
             <h4 className="text-white text-xl">{t("slide1.desc")}</h4>
-            <h1 className="text-white text-6xl w-20 my-10">
+            <h1 className="text-white text-6xl w-100  my-10 font-extrabold uppercase ">
               {t("slide1.title")}
             </h1>
             <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full">
@@ -74,28 +74,24 @@ const HomeSlider = () => {
                   src="/Developer-Next/Home/Slider/food-delivery-img1.jpg"
                   width={200}
                   height={200}
-                  className=""
                 />
                 <Image
                   alt="slide3"
                   src="/Developer-Next/Home/Slider/courier.jpg"
                   width={200}
                   height={200}
-                  className=""
                 />
                 <Image
                   alt="slide3"
                   src="/Developer-Next/Home/Slider/fleet-management.jpg"
                   width={200}
                   height={200}
-                  className=""
                 />
                 <Image
                   alt="slide3"
                   src="/Developer-Next/Home/Slider/tracking-app-1.jpg"
                   width={200}
                   height={200}
-                  className=""
                 />
               </div>
             </div>

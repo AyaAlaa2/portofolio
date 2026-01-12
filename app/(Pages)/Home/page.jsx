@@ -1,12 +1,12 @@
 "use client";
 import { useTranslations } from "next-intl";
-import HomeSlider from "../../components/home/HomeSlider"
+import HomeSlider from "../../components/home/HomeSlider";
 
 const Page = () => {
   const t = useTranslations("Home");
   return (
     <>
- <HomeSlider />
+      <HomeSlider />
     </>
   );
 };
