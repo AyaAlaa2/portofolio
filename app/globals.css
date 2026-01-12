@@ -10,8 +10,41 @@
   background: url("/Developer-Next/Home/Slider/slider-part-1.2c4ace88f2a1a33615b8.jpg");
   background-size: cover;
   background-position: center;
- 
 }
+.slide {
+  background: url("/Developer-Next/Home/Slider/slide_bg_img.644a7ee5e7d52075a514.png")
+    no-repeat bottom;
+
+  background-size: 80% auto;
+}
+
 .swiper {
   height: 100vh;
+}
+
+/* Animate Image in Slider */
+
+@keyframes animate-image {
+  0% {
+    transform: translate(-25px, -25px);
+  }
+
+  25% {
+    transform: translate(25px, -25px);
+  }
+
+  50% {
+    transform: translate(25px, 25px);
+  }
+
+  75% {
+    transform: translate(-25px, 25px);
+  }
+
+  100% {
+    transform: translate(-25px, -25px);
+  }
+}
+.animate-image {
+  animation: animate-image 4s linear infinite;
 }
