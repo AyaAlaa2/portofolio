@@ -3,6 +3,11 @@
     "title": "Welcome",
     "desc": "This is the home page"
   },
+  "HeaderBanner": {
+    "message": "Unique custom products & services.",
+    "follow-us": "Follow Us"
+  },
+
   "Navbar": {
     "home": "Home",
     "about": "About",
@@ -26,10 +31,42 @@
       "desc": "Taxi App Dev | Fleet Management | Courier Track | Food Delivery"
     },
     "button": "Request a quote"
+  },
+
+ "HomeServices": {
+  "title": "Our Services",
+  "desc": "All micro-services, digitalized application, hyper-automation, quality, satisfaction, unlimited revisions with dedication",
+  
+  "eCommerce": {
+    "title": "eCommerce Solutions",
+    "icon": "FaShoppingCart",
+    "desc": "E-commerce is definitely a great way for any business to reach more customers and sell more products."
+  },
+  "Design": {
+    "title": "Design",
+    "icon": "MdDesignServices",
+    "desc": "Great websites don’t just look good—they make visitors glad to be there, confident about finding their way around."
+  },
+  "WebPromotion": {
+    "title": "Web Promotion (SEO)",
+    "icon": "FaBullhorn",
+    "desc": "Web promotion is a collection of marketing tactics, actions, and techniques that drive traffic (visitors) to your website."
+  },
+  "ExplainerVideos": {
+    "title": "Explainer Videos",
+    "icon": "FaVideo",
+    "desc": "We offer an affordable, awesome and eye-catchy Video that let you explain your business idea, products and services."
+  },
+  "WebDevelopment": {
+    "title": "Web Development",
+    "icon": "FaCode",
+    "desc": "Our web development services include business and inventory website along with custom web development."
+  },
+  "MobileApp": {
+    "title": "Mobile Application",
+    "icon": "FaMobileAlt",
+    "desc": "When developing a mobile app, our focus lies on building something that adds value to your business."
   }
-  ,
-  "HeaderBanner": {
-    "message": "Unique custom products & services.",
-    "follow-us": "Follow Us"
-  }
+}
+
 }
